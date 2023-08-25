@@ -6,7 +6,7 @@ Originally, my platform was built on Arduino Uno Rev3 board. It was talking to m
 Whole platform consisted of two SM 57/56-1006MA step motors (400steps per revolution) controlled with two silent TMC2226 step sticks. There is a 3:1 gear ratio between both motors and both axis, to achieve better resolution of movement. Main board is capable of controlling MS pins to change micro step revolution between 1/8 1/16 1/32 and 1/64. 
 <p align="center">
 <img src="https://github.com/JrPilar/ArduinoEQ/assets/143182035/e31d01f7-63a7-47e2-9999-ef7aab70a25f"
-width=25%>
+width=50%>
 </p>
 Second version was built using QT PY board from Adafruid, witch made all actions faster, and whole setup slim. Also, this solution opens path to future Bluetooth or Wi-Fi control.
 
