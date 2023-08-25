@@ -2,8 +2,8 @@
 Code for Arduino based platform to control EQ3-2 movement, implementing pulse guiding for PHD2.
 Code is prepared for any arduino-like platform capable of controlling GPIO pins.  
 
-accelstep_v2.ino - arduino code to uplode to your board
-ASCOM Driver - inside is whole ASCOM driver alowing pulse guiding with PHD2
+<i> accelstep_v2.ino </i> - arduino code to uplode to your board  
+<i>ASCOM Driver</i> - inside is whole ASCOM driver alowing pulse guiding with PHD2
   
 Originally, my platform was built on Arduino Uno Rev3 board. It was talking to my computer through COM port listening to Arduino serial port or COM port commands sent by ASCOM.
 Whole platform consisted of two SM 57/56-1006MA step motors (400steps per revolution) controlled with two silent TMC2226 step sticks. There is a 3:1 gear ratio between both motors and both axis, to achieve better resolution of movement. Main board is capable of controlling MS pins to change micro step revolution between 1/8 1/16 1/32 and 1/64. 
