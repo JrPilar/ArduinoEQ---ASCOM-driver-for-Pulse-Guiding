@@ -1,7 +1,8 @@
 # ArduinoEQ
 Code for Arduino based platform to control EQ3-2 movement, implementing pulse guiding for PHD2.
 Code is prepared for any arduino-like platform capable of controlling GPIO pins.  
-
+  
+<i> New_MontazV1.ino </i> - old driver, not implementing microstepping and acceleration
 <i> accelstep_v2.ino </i> - arduino code to uplode to your board  
 <i>ASCOM Driver</i> - inside is whole ASCOM driver alowing pulse guiding with PHD2
   
